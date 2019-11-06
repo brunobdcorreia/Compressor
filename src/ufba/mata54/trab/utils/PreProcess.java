@@ -22,8 +22,6 @@ public class PreProcess {
 			}
 			
 			inputStream.close();
-			
-			return fileContents;
 		} catch (FileNotFoundException e) {
 			System.out.println("Arquivo nao encontrado.");
 			e.printStackTrace();
